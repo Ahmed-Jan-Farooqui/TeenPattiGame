@@ -1,0 +1,39 @@
+.loading {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: cyan;
+}
+
+.loading-message {
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.winning-screen {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: green;
+}
+
+.winning-text {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.name-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.hand.remove-margin.player-three-cards {
+    pointer-events: none;
+}
+
+.name {
+    size: 100px;
+}
+
